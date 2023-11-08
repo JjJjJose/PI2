@@ -20,13 +20,21 @@
             <label for="imageUpload">Escolha uma imagem de exemplo:</label>
             <input type="file" name="image" id="imageUpload" accept="image/*">
             <img src="#" alt="Preview" id="preview" style="display: none;">
+            <label for="">Titulo e descrição
+                <input type="text" name="" id="tituto">
+                <input type="text" name="" id="descricao">
+            </label>
+            <select name="" id="">
+
+            </select>
 
         </form>
     </div>
     <script>
         const imageUpload = document.getElementById('imageUpload');
-        const preview = document.getElementById('Preview');
-        preview.style.width = '200px';
+        const preview = document.getElementById('preview');
+        preview.style.width = '150px';
+
 
         imageUpload.addEventListener('change', function() {
             const file = this.files[0];

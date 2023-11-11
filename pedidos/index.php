@@ -24,10 +24,22 @@
                 <input type="text" name="" id="tituto">
                 <input type="text" name="" id="descricao">
             </label>
-            <select name="" id="">
-
-            </select>
-
+            <label for="">Escolha uma área
+                <select name="" id="">
+                    <option value="">:3</option>
+                    <option value="">:3</option>
+                    <option value="">:3</option>
+                    <option value="">:3</option>
+                </select>
+            </label>
+            <label for="">Insira um preço
+                <input type="number" name="" id="">
+            </label>
+            <label for="">Data limite
+                <input type="date" name="" id="">
+            </label>
+            <button>cancelar</button>
+            <button>enviar</button>
         </form>
     </div>
     <script>
@@ -52,7 +64,7 @@
                 preview.style.display = 'none';
             }
         });
+        // :3
     </script>
 </body>
-
 </html>
